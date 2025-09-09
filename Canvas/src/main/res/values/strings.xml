@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidCanvas</string>
+        <string name="drink">Drink</string>
+        <string name="water_glass">Water Glass</string>
+        <string name="crow">Crow</string>
+
+</resources>
