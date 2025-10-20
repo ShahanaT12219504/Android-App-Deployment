@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/timer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5:00"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/timer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4:00"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/timer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3:00"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/timer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2:00"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/timer5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1:00"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_margin="8dp"/>
+
+    <!-- First row: Start / Stop / Restart -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restart"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+
+</LinearLayout>
