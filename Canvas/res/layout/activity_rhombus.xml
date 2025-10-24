@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <com.example.androidcanvas.RhombusView
+        android:id="@+id/rhombusView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rhombusFillColor="@android:color/holo_blue_light"
+        app:rhombusStrokeColor="@android:color/white"
+        app:rhombusStrokeWidth="6dp"
+        app:rhombusInset="32dp" />
+
+</FrameLayout>

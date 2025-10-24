@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <declare-styleable name="RhombusView">
+        <attr name="rhombusFillColor" format="color" />
+        <attr name="rhombusStrokeColor" format="color" />
+        <attr name="rhombusStrokeWidth" format="dimension" />
+        <attr name="rhombusInset" format="dimension" />
+    </declare-styleable>
+
+</resources>
