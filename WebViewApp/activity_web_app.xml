@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:background="#101010">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center">
+
+        <!-- ICC -->
+        <ImageView
+            android:id="@+id/iccLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icc"
+            android:layout_margin="10dp"
+            android:contentDescription="ICC"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+        <!-- Kickboxing -->
+        <ImageView
+            android:id="@+id/kickboxLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kickboxing"
+            android:layout_margin="10dp"
+            android:contentDescription="Kickboxing"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+        <!-- FIFA -->
+        <ImageView
+            android:id="@+id/fifaLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fifa"
+            android:layout_margin="10dp"
+            android:contentDescription="FIFA"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+        <!-- Table Tennis -->
+        <ImageView
+            android:id="@+id/tableTennisLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/table_tennis"
+            android:layout_margin="10dp"
+            android:contentDescription="Table Tennis"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+        <!-- Badminton -->
+        <ImageView
+            android:id="@+id/badmintonLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/badminton"
+            android:layout_margin="10dp"
+            android:contentDescription="Badminton"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+        <!-- Swimming -->
+        <ImageView
+            android:id="@+id/swimmingLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/swimming"
+            android:layout_margin="10dp"
+            android:contentDescription="Swimming"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+        <!-- Lawn Tennis -->
+        <ImageView
+            android:id="@+id/lawnTennisLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/lawn_tennis"
+            android:layout_margin="10dp"
+            android:contentDescription="Lawn Tennis"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+        <!-- Basketball -->
+        <ImageView
+            android:id="@+id/basketballLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/basketball"
+            android:layout_margin="10dp"
+            android:contentDescription="Basketball"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+        <!-- Taekwondo -->
+        <ImageView
+            android:id="@+id/taekwondoLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/taekwondo"
+            android:layout_margin="10dp"
+            android:contentDescription="Taekwondo"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+
+    </GridLayout>
+</ScrollView>
