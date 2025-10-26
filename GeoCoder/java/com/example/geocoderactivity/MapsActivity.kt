@@ -26,8 +26,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     private var sourceLatLng: LatLng? = null
     private var destinationLatLng: LatLng? = null
 
-    // ✅ Use your Places key (works for Maps too)
-    private val apiKey = "AIzaSyA885Rsjovh2Lqktb8I-L-Sr9hvCyuFsMs"
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
