@@ -17,10 +17,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GeoCoderActivity">
 
-        <!-- Maps & Places API Key (✅ only one key) -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyA885Rsjovh2Lqktb8I-L-Sr9hvCyuFsMs" />
 
         <activity
             android:name=".MapsActivity"
@@ -41,3 +37,4 @@
 
     </application>
 </manifest>
+
